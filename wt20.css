@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+    border-top: 10px solid orangered;
+
+}
+.container
+{
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+}
+.India-box
+{
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.first-header
+{
+    display: flex;
+    background-color: darkmagenta;
+    gap: 10px;
+    justify-content: space-between;
+}
+.nav-header
+{
+    align-content: center;
+}
+.nav-header a:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.nav-header a:link ,
+.nav-header a:active ,
+.nav-header a:visited 
+
+{
+    text-decoration: none;
+    color: orangered;
+}
+.CHAMPIONS-2024
+{
+    width: 400px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.INDIA-2024
+{
+    width: 400px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent-CHAMPIONS
+{
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+    background-color: blueviolet;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    height: 250PX;
+    
+    
+    
+}
+
+.recent-CHAMPIONS h4
+{
+    align-items : center;
+    border-bottom: 10px;
+    border-right: 25px;
+    
+
+}
+.link-champions a:link ,
+.link-champions a:active ,
+.link-champions a:visited 
+{
+    text-decoration: none;
+    color: orangered
+
+}
+.link-champions a:hover {
+    cursor: pointer;
+    color: purple;
+}
+.icc
+{
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+    background-color: blueviolet;
+    width: 270px;
+    height: 200PX;
+    padding: 20px;
+    
+}
+.icc h4
+{
+    display: block;
+    align-items : center;
+    margin-bottom: 10px;
+}
+.side-table
+{
+    display: flex;
+    
+}
+.immovealbe-tab
+{
+    display: inline-block;
+    position: fixed;
+    background-color: cadetblue;
+    padding: 5px;
+    letter-spacing: 5px;
+    top: 0px;
+    width: 1000px;
+    align-content: center;
+    display: flex;
+}

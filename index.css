@@ -1,0 +1,56 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.shape-container
+{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    width: 500px;
+    height: 700px;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: right;
+
+}
+.shape-1
+{
+        width:100px ;
+        height:100px ;
+        background-color:red ;
+}
+.shape-2
+{
+        width:100px ;
+        height:100px ;
+        background-color:cyan;
+        align-self: self-end;
+}
+
+.shape-3
+{
+        width:100px ;
+        height:100px ;
+        background-color:purple;
+}
+.shape-4
+{
+        width:100px ;
+        height:100px ;
+        background-color:blue;
+}
+.shape-5
+{
+        width:100px ;
+        height:100px ;
+        background-color:yellow ;
+}
+.shape-6
+{
+        width:100px ;
+        height:100px ;
+        background-color:orange ;
+}
+
+

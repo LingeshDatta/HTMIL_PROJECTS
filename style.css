@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-1
+{
+    background-color: darkgreen;
+    width: 100px;
+    height: 150px;
+    border: 60px solid yellow;
+    padding: 10px;
+}
+
+.box-2
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 60px solid orange;
+    padding: 20px;
+}
+.box-3
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 60px solid orange;
+    padding: 20px;
+}
+.boxes
+{
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    height: 500px;
+    align-items: start;
+    justify-content: space-between;
+    background-color: burlywood;
+
+}  

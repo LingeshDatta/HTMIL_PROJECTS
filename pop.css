@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+.shop
+{
+    width: 920px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+
+
+}
+.container
+{
+    display: flex;
+    gap: 60px;
+}
+.chair
+{
+    
+   
+    border-radius: 7%;
+   
+
+}
+button
+{
+    width: 100px;
+   height: 60px;
+   background-color: black;
+   color: orangered;
+   border-radius: 20%;
+
+}
+.press
+{
+    text-align: ;
+    font-size: xx-large;
+    width: auto;
+    border-radius: 25%;
+    margin-top: -66px;
+    
+   
+}
+button:hover
+{
+    
+    
+    color: black;
+    background-color: orangered;
+    cursor: pointer;
+    height: 60px;
+    border-radius: 25%;
+    
+}
+.cart
+{
+    width: 20px;
+    height: 20px;
+}
+.rocket
+{
+    width: 50px;
+    height: 50px;
+    stroke: coral;
+    fill: crimson;
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bolt
+{
+    width: 20px;
+    height: 20px;
+    fill: darkblue;
+}
+.suggestion
+{
+    display: flex;
+    gap: 50px;
+}
+.LUXUARY-CHAIRS
+{
+    
+}
+.SCORPION-CHAIR
+{
+    border-top-right-radius: 7% ;
+    border-top-left-radius: 10%;
+}
+.price
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:130px;
+}
+.comfortable
+{
+    display: flex;
+    gap : 20px;
+
+
+}
+.list-1 {
+    
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    background-color:#f0f0f0;
+    padding: 20px;
+    background-color:#9E9FA8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur radius, Color */
+    border-radius: 10px;
+    
+    
+}
+.list-2 {
+    
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-color:#9E9FA8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Horizontal offset, Vertical offset, Blur radius, Color */
+    border-radius: 10px;
+}
